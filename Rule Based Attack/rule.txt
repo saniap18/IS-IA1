@@ -1,0 +1,7 @@
+:
+#Lowercase
+l
+#Uppercase
+u
+#Capitalise first character
+c
