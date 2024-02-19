@@ -1,0 +1,15 @@
+RULE BASED ATTACK:
+
+Also known as wordlist mutation attack, is a password cracking technique where an attacker uses a set of predefined rules or transformations from a base set of password to generate potential password of guesses. 
+
+From this the passwords that are generated are tested symmetrically against the system for gaining unauthorized access and thereby launching an attack on the system.
+
+
+Command for rule based attack is:
+hashcat -a 0 -m 0 password.txt wordlist.txt -r rule.txt
+
+where -a 0 denotes rule based attack 
+      -m 0 denotes MD5 hashed text
+      password.txt --> Stores hashed passwords
+      wordlist.txt --> Stores potential password guesses
+      rule.txt --> A text file containing various rules to be applied after decrypting the password in order to crack it.
