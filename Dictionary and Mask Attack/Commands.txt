@@ -1,0 +1,10 @@
+Commands:-
+
+1. Dictionary Attack:-
+
+MD5:- hashcat -m 0 -a 0 md5.txt rockyou.txt
+SHA1:- hashcat -m 100 -a 0 sha1.txt rockyou.txt
+
+2. Mask Attack
+
+hashcat -a 3 -m 0 hash.txt "?l?l?l?l" 
