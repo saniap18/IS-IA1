@@ -8,4 +8,4 @@ Command Example: hashcat -a 1 -m 0 md5.txt rockyou.txt rockyou.txt
 
 dictionary file: rockyou.txt
 
-This attack will find permutatations of the passwords in both wordlists. In this example, the combinations of the words will be with itself
+This attack will find permutatations of the passwords in both wordlists. In this example, the combinations of the words will be created with itself
